@@ -8,15 +8,19 @@
 import SwiftUI
 
 struct ContentView: View {
+
     
     var body: some View {
-
+        
         BasicGestureView()
         OnChangedOnEndedView()
         UpdatingView()
-
+        GestureMakeUpView()
+        GestureMakeUpPhaseView()
+        
     }
 }
+
 
 #Preview {
     ContentView()

@@ -10,6 +10,8 @@
 		5C6F2C582B33D08E00FE3488 /* BasicGestureView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C6F2C572B33D08E00FE3488 /* BasicGestureView.swift */; };
 		5C6F2C5A2B33DF4200FE3488 /* OnChangedOnEndedView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C6F2C592B33DF4200FE3488 /* OnChangedOnEndedView.swift */; };
 		5C6F2C5C2B33FA6100FE3488 /* UpdatingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C6F2C5B2B33FA6100FE3488 /* UpdatingView.swift */; };
+		5C6F2C5E2B33FBA800FE3488 /* GestureMakeUpView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C6F2C5D2B33FBA800FE3488 /* GestureMakeUpView.swift */; };
+		5C6F2C602B34030300FE3488 /* GestureMakeUpPhaseView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C6F2C5F2B34030300FE3488 /* GestureMakeUpPhaseView.swift */; };
 		5C93AC482B326D3700292CEC /* GestureDemoApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C93AC472B326D3700292CEC /* GestureDemoApp.swift */; };
 		5C93AC4A2B326D3700292CEC /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C93AC492B326D3700292CEC /* ContentView.swift */; };
 		5C93AC4C2B326D3900292CEC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5C93AC4B2B326D3900292CEC /* Assets.xcassets */; };
@@ -20,6 +22,8 @@
 		5C6F2C572B33D08E00FE3488 /* BasicGestureView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BasicGestureView.swift; sourceTree = "<group>"; };
 		5C6F2C592B33DF4200FE3488 /* OnChangedOnEndedView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnChangedOnEndedView.swift; sourceTree = "<group>"; };
 		5C6F2C5B2B33FA6100FE3488 /* UpdatingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UpdatingView.swift; sourceTree = "<group>"; };
+		5C6F2C5D2B33FBA800FE3488 /* GestureMakeUpView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GestureMakeUpView.swift; sourceTree = "<group>"; };
+		5C6F2C5F2B34030300FE3488 /* GestureMakeUpPhaseView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GestureMakeUpPhaseView.swift; sourceTree = "<group>"; };
 		5C93AC442B326D3700292CEC /* GestureDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GestureDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5C93AC472B326D3700292CEC /* GestureDemoApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GestureDemoApp.swift; sourceTree = "<group>"; };
 		5C93AC492B326D3700292CEC /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -62,7 +66,9 @@
 				5C93AC492B326D3700292CEC /* ContentView.swift */,
 				5C6F2C592B33DF4200FE3488 /* OnChangedOnEndedView.swift */,
 				5C6F2C572B33D08E00FE3488 /* BasicGestureView.swift */,
+				5C6F2C5D2B33FBA800FE3488 /* GestureMakeUpView.swift */,
 				5C6F2C5B2B33FA6100FE3488 /* UpdatingView.swift */,
+				5C6F2C5F2B34030300FE3488 /* GestureMakeUpPhaseView.swift */,
 				5C93AC4B2B326D3900292CEC /* Assets.xcassets */,
 				5C93AC4D2B326D3900292CEC /* GestureDemo.entitlements */,
 				5C93AC4E2B326D3900292CEC /* Preview Content */,
@@ -149,6 +155,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				5C6F2C5A2B33DF4200FE3488 /* OnChangedOnEndedView.swift in Sources */,
+				5C6F2C5E2B33FBA800FE3488 /* GestureMakeUpView.swift in Sources */,
+				5C6F2C602B34030300FE3488 /* GestureMakeUpPhaseView.swift in Sources */,
 				5C6F2C5C2B33FA6100FE3488 /* UpdatingView.swift in Sources */,
 				5C93AC4A2B326D3700292CEC /* ContentView.swift in Sources */,
 				5C93AC482B326D3700292CEC /* GestureDemoApp.swift in Sources */,
