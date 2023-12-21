@@ -43,6 +43,25 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		5C6F2C612B3403DF00FE3488 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				5C6F2C592B33DF4200FE3488 /* OnChangedOnEndedView.swift */,
+				5C6F2C572B33D08E00FE3488 /* BasicGestureView.swift */,
+				5C6F2C5D2B33FBA800FE3488 /* GestureMakeUpView.swift */,
+				5C6F2C5B2B33FA6100FE3488 /* UpdatingView.swift */,
+				5C6F2C5F2B34030300FE3488 /* GestureMakeUpPhaseView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		5C6F2C622B3403F200FE3488 /* PracticeView */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = PracticeView;
+			sourceTree = "<group>";
+		};
 		5C93AC3B2B326D3700292CEC = {
 			isa = PBXGroup;
 			children = (
@@ -64,11 +83,8 @@
 			children = (
 				5C93AC472B326D3700292CEC /* GestureDemoApp.swift */,
 				5C93AC492B326D3700292CEC /* ContentView.swift */,
-				5C6F2C592B33DF4200FE3488 /* OnChangedOnEndedView.swift */,
-				5C6F2C572B33D08E00FE3488 /* BasicGestureView.swift */,
-				5C6F2C5D2B33FBA800FE3488 /* GestureMakeUpView.swift */,
-				5C6F2C5B2B33FA6100FE3488 /* UpdatingView.swift */,
-				5C6F2C5F2B34030300FE3488 /* GestureMakeUpPhaseView.swift */,
+				5C6F2C622B3403F200FE3488 /* PracticeView */,
+				5C6F2C612B3403DF00FE3488 /* View */,
 				5C93AC4B2B326D3900292CEC /* Assets.xcassets */,
 				5C93AC4D2B326D3900292CEC /* GestureDemo.entitlements */,
 				5C93AC4E2B326D3900292CEC /* Preview Content */,
