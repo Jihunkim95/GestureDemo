@@ -14,17 +14,15 @@ struct ContentView: View {
     @State private var dragEnabled: Bool = false
     var body: some View {
         
-        ScrollView{
-            BasicGestureView()
-            OnChangedOnEndedView()
-            UpdatingView()
-            GestureMakeUpView()
-            GestureMakeUpPhaseView()
+//            BasicGestureView()
+//            OnChangedOnEndedView()
+//            UpdatingView()
+//            GestureMakeUpView()
+//            GestureMakeUpPhaseView()
             //실습문제
             LongPressGestureView()
             DragGestureView()
-        }
-        .ignoresSafeArea()
+
     }
 }
 #Preview {
