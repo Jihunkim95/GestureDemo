@@ -8,32 +8,33 @@
 import SwiftUI
 
 struct LongPressGestureView: View {
-    //투명
-    @State private var opacityNum: Double = 1
-    //이미지 크기
-    @State private var magnification: CGFloat = 1.0
+    @GestureState private var longPressTap = false
+    @State private var isPressed = false
+    
 
     var body: some View {
         let longPressBeforeDrag = LongPressGesture(minimumDuration: 1.0)
-            .onChanged{ _ in
-                opacityNum = 0.4
-                magnification = 1.5
+            .updating($longPressTap) { value, state, transaction in
+                state = value
             }
-            .onEnded{ _ in
-                magnification = 1.0
-                opacityNum = 1
+            .onChanged { _ in
+                self.isPressed.toggle()
+            }
+            .onEnded { _ in
+                self.isPressed.toggle()
             }
 
   
-        
+        Text("LongPressGesture사용")
         Image(systemName: "snowflake.circle")
             .resizable()
             .frame(width: 100,height: 100)
-            .font(.largeTitle)
             .foregroundStyle(.mint)
-            .scaleEffect(magnification)
+            .opacity(isPressed ? 0.4 : 1.0)
+            .scaleEffect(longPressTap ? 0.5 : 1.0)
+            .animation(.easeOut, value: isPressed)
             .gesture(longPressBeforeDrag)
-            .opacity(opacityNum)
+            
         }
 
     }

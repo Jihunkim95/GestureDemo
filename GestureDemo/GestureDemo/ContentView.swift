@@ -9,29 +9,24 @@ import SwiftUI
 
 struct ContentView: View {
     
-    
+    @State private var offset: CGSize = .zero
+    @GestureState private var longPress: Bool = false
+    @State private var dragEnabled: Bool = false
     var body: some View {
         
-        //        BasicGestureView()
-        //        OnChangedOnEndedView()
-        //        UpdatingView()
-        //        GestureMakeUpView()
-        //        GestureMakeUpPhaseView()
-        LongPressGestureView()
+        ScrollView{
+            BasicGestureView()
+            OnChangedOnEndedView()
+            UpdatingView()
+            GestureMakeUpView()
+            GestureMakeUpPhaseView()
+            //실습문제
+            LongPressGestureView()
+            DragGestureView()
+        }
+        .ignoresSafeArea()
     }
-    
 }
 #Preview {
     ContentView()
 }
-
-//let cleanTab = TapGesture()
-//    .onEnded{ _ in
-//        opacityNum = 0.4
-//    }
-//Image(systemName: "snowflake.circle")
-//    .resizable()
-//    .frame(width: 100,height: 100)
-//    .foregroundStyle(.mint)
-//    .gesture(cleanTab)
-//    .opacity(opacityNum)
