@@ -14,7 +14,7 @@ struct LongPressGestureView: View {
     @State private var magnification: CGFloat = 1.0
 
     var body: some View {
-        let longPressBeforeDrag = LongPressGesture(minimumDuration: 2.0)
+        let longPressBeforeDrag = LongPressGesture(minimumDuration: 1.0)
             .onChanged{ _ in
                 opacityNum = 0.4
                 magnification = 1.5
@@ -37,7 +37,6 @@ struct LongPressGestureView: View {
         }
 
     }
-}
 
 #Preview {
     LongPressGestureView()
