@@ -12,6 +12,7 @@
 		5C6F2C5C2B33FA6100FE3488 /* UpdatingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C6F2C5B2B33FA6100FE3488 /* UpdatingView.swift */; };
 		5C6F2C5E2B33FBA800FE3488 /* GestureMakeUpView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C6F2C5D2B33FBA800FE3488 /* GestureMakeUpView.swift */; };
 		5C6F2C602B34030300FE3488 /* GestureMakeUpPhaseView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C6F2C5F2B34030300FE3488 /* GestureMakeUpPhaseView.swift */; };
+		5C6F2C642B34122A00FE3488 /* LongPressGestureView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C6F2C632B34122A00FE3488 /* LongPressGestureView.swift */; };
 		5C93AC482B326D3700292CEC /* GestureDemoApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C93AC472B326D3700292CEC /* GestureDemoApp.swift */; };
 		5C93AC4A2B326D3700292CEC /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C93AC492B326D3700292CEC /* ContentView.swift */; };
 		5C93AC4C2B326D3900292CEC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5C93AC4B2B326D3900292CEC /* Assets.xcassets */; };
@@ -24,6 +25,7 @@
 		5C6F2C5B2B33FA6100FE3488 /* UpdatingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UpdatingView.swift; sourceTree = "<group>"; };
 		5C6F2C5D2B33FBA800FE3488 /* GestureMakeUpView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GestureMakeUpView.swift; sourceTree = "<group>"; };
 		5C6F2C5F2B34030300FE3488 /* GestureMakeUpPhaseView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GestureMakeUpPhaseView.swift; sourceTree = "<group>"; };
+		5C6F2C632B34122A00FE3488 /* LongPressGestureView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LongPressGestureView.swift; sourceTree = "<group>"; };
 		5C93AC442B326D3700292CEC /* GestureDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GestureDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5C93AC472B326D3700292CEC /* GestureDemoApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GestureDemoApp.swift; sourceTree = "<group>"; };
 		5C93AC492B326D3700292CEC /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -58,6 +60,7 @@
 		5C6F2C622B3403F200FE3488 /* PracticeView */ = {
 			isa = PBXGroup;
 			children = (
+				5C6F2C632B34122A00FE3488 /* LongPressGestureView.swift */,
 			);
 			path = PracticeView;
 			sourceTree = "<group>";
@@ -174,6 +177,7 @@
 				5C6F2C5E2B33FBA800FE3488 /* GestureMakeUpView.swift in Sources */,
 				5C6F2C602B34030300FE3488 /* GestureMakeUpPhaseView.swift in Sources */,
 				5C6F2C5C2B33FA6100FE3488 /* UpdatingView.swift in Sources */,
+				5C6F2C642B34122A00FE3488 /* LongPressGestureView.swift in Sources */,
 				5C93AC4A2B326D3700292CEC /* ContentView.swift in Sources */,
 				5C93AC482B326D3700292CEC /* GestureDemoApp.swift in Sources */,
 				5C6F2C582B33D08E00FE3488 /* BasicGestureView.swift in Sources */,
