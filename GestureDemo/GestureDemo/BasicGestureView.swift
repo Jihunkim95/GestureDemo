@@ -8,6 +8,9 @@
 import SwiftUI
 
 struct BasicGestureView: View {
+    
+    @State private var animate = false
+
     var body: some View {
         // 코드의 재사용성
         let tap = TapGesture()
@@ -19,6 +22,7 @@ struct BasicGestureView: View {
         let doubleTap = TapGesture(count: 2)
             .onEnded{ _ in
                 print("doubleTaped")
+                animate.toggle()
             }
         
         // 롱 프레스 제스처
@@ -38,6 +42,11 @@ struct BasicGestureView: View {
             Text("DoubleTap")
             Image(systemName: "hand.point.right.fill")
                 .gesture(doubleTap)
+                .font(.system(size: 50))
+                .symbolRenderingMode(.palette)
+                .foregroundStyle(.purple, .gray)
+                .symbolEffect(.bounce, options: .repeat(1) .speed(1.0), value: animate)
+
         }
         .padding()
         
