@@ -45,7 +45,7 @@ struct BasicGestureView: View {
                 .font(.system(size: 50))
                 .symbolRenderingMode(.palette)
                 .foregroundStyle(.purple, .gray)
-                .symbolEffect(.bounce, options: .repeat(1) .speed(1.0), value: animate)
+//                .symbolEffect(.bounce, options: .repeat(1) .speed(1.0), value: animate)
 
         }
         .padding()
